@@ -15,4 +15,4 @@ insert into komponenta value (2, 0 , '2018-07-25' , false, 'B450 Aorus M', 'Giga
 insert into komponenta value (3, 18000.00 , '2019-02-01' , true, 'SSD 970 EVO PLUS 500GB', 'Samsung 970 EVO Plus.png' , 2);
 insert into komponenta value (4, 21000.00 ,'2019-07-23' , false, 'GeForce RTX 2080 SUPER OC 8G', 'Gigabyte GeForce RTX 2080 Super OC.png' ,3);
 insert into komponenta value (5, 24000.00 ,'2018-08-20' , true, 'HyperX Predator 16GB Kit 3200MHz', 'Kingston DDR4 HyperX Predator.jpeg' , 4);
-insert into komponenta value (6, 0 , '2019-09-25' , true, 'C24FG73', 'Samsung C24FG73.jpg' , 2);
+insert into komponenta value (6, 0 , '2019-09-25' , false, 'C24FG73', 'Samsung C24FG73.jpg' , 2);

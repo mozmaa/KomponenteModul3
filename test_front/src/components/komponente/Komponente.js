@@ -98,6 +98,7 @@ export const Komponente = (props) => {
                             {props.loginInfo?.isAdmin&& <th></th> }
                             {props.loginInfo?.isAdmin  && <th></th> }
                             {props.loginInfo?.isAdmin  && <th></th> }
+                            {props.loginInfo?.isAdmin&& <th></th> }
                         </tr>
                     </thead>
                     <tbody>
@@ -110,6 +111,7 @@ export const Komponente = (props) => {
                 <Button className="ms-auto" disabled={pageNo === 0} onClick={() => getKomponente(pageNo - 1)}>Prev</Button>
                 {komponente.length === 0 ? pageNo : pageNo + 1}/{pageCount}
                 <Button disabled={pageNo === pageCount - 1} onClick={() => getKomponente(pageNo + 1)}>Next</Button>
+                
             </Stack>
         </Col>
     )
